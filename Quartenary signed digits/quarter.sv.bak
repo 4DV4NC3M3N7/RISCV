@@ -1,0 +1,230 @@
+
+// This adder has P,G,cout are outputs
+	module full_adder_1_bit(a,b,sum_dif,p,g,cin,add_sub);
+//------------------------------------
+				input a,b,cin,add_sub;
+				output sum_dif,p,g;
+				wire B;
+				//------------------------------------
+				assign B = b ^ add_sub ;
+				assign g = a & B ;
+				assign p = a ^ B ;
+				assign sum_dif =  a ^ B ^ cin ;
+
+	endmodule
+	
+	//mux 2 to 1
+	
+	module mux_2(input b,a,s,output y);
+			assign y = s?b:a;     // when s = 0 choosing 'a' and when s = 1 choose 'b' , a is 0 b is 1 
+	endmodule
+	//    32bits 1bits shifter left and right
+	module quarter(in,out1,out2,scale);//Shifter_single_layer_32bits
+			input [31:0]  in;
+			wire   [31:0][31:0] stage;
+			input [31:0]scale;
+			output[31:0] out1,out2;
+		 	genvar i;
+			genvar j;
+			
+			generate
+			// first layers with input
+			for (i=1;i<32;i++)
+				begin: layer_0
+				mux_2 first_layer(in[31-i],in[32-i],scale[0],stage[31][32-i]);// this is where j = 0 because this is line zero
+				
+					end
+			//======================================================		
+			//second and n layers with wire stage 
+			for (j=1;j<31;j++)
+				begin: combined
+				for (i=1;i < 32;i++)
+					begin: layer_n
+						mux_2 layer(stage[31-j][31-i],stage[31-j][32-i],scale[j],stage[31-j][32-i]); //left shift
+						//mux_2 m1(in[i],in[i-1],scale,stage1_[i-1]);   //right shift
+					end
+				end
+			/* 
+			for (i=2;i < 32;i++)
+				begin: layer_1
+					mux_2 m2(stage1[31-i],stage1[33-i],scale[1],stage2[33-i]);
+				   //mux_2 m3(in[i],in[i-1],scale,stage1_[i-1]);
+				end
+			*/ 
+			
+			for (j=1;j<32;j++)
+				begin: combined_0s
+				for (i=0;i <= j;i++)
+					begin: layer_0
+						mux_2 layer_1_bits_0(1'b0,stage[32-j][i],scale[j],stage[31-j][i]);//left shift
+						//mux_2 m1(in[i],in[i-1],scale,stage1_[i-1]);   //right shift
+					end
+				end
+					
+			endgenerate
+			
+					mux_2 layer_0_bits_0(1'b0,in[0],scale[0],stage[31][0]);
+					//mux_2 single_layer_32bits_block31_v2(1'b0,in[31],scale,out2[31]);
+				//=====================================================================
+					//mux_2 layer_1_bits_0(1'b0,stage[31][0],scale[1],stage[30][0]); 
+					//mux_2 layer_1_bits_1(1'b0,stage[31][1],scale[1],stage[30][1]); 
+				//=====================================================================
+				   	//mux_2 layer_2_bits_0(1'b0,stage[31][1],scale[2],stage[31][2]); 
+					//mux_2 layer_2_bits_1(1'b0,stage[30][1],scale[2],stage[30][2]); 
+					//mux_2 layer_2_bits_2(1'b0,stage[29][1],scale[2],stage[29][2]); 
+					
+	endmodule
+	
+	module mux_4(sel,OUTput,addition,subtraction,and_logic,or_logic,xor_logic,shiftL_logic,shiftR_logic,unset_logic,not_logic);
+	input  addition,subtraction,and_logic,or_logic,xor_logic,shiftL_logic,shiftR_logic,not_logic;
+	input [8:1] unset_logic;
+	input [3:0] sel;
+	wire [15:0]outlet;
+	output OUTput;
+			assign outlet[0] = addition & (~sel[3]) & (~sel[2]) & (~sel[1]) & (~sel[0]);
+			assign outlet[1] = subtraction & (~sel[3]) & (~sel[2]) & (~sel[1]) & (sel[0]);
+			assign outlet[2] = and_logic & (~sel[3]) & (~sel[2]) & (sel[1]) & (~sel[0]);
+			assign outlet[3] = or_logic & (~sel[3]) & (~sel[2]) & (sel[1]) & (sel[0]);
+			assign outlet[4] = xor_logic & (~sel[3]) & (sel[2]) & (~sel[1]) & (~sel[0]);
+			assign outlet[5] = not_logic & (~sel[3]) & (sel[2]) & (~sel[1]) & (sel[0]);
+			assign outlet[6] = shiftL_logic & (~sel[3]) & (sel[2]) & (sel[1]) & (~sel[0]);
+			assign outlet[7] = shiftR_logic & (~sel[3]) & (sel[2]) & (sel[1]) & (sel[0]);
+			assign outlet[8] = unset_logic[1] & (sel[3]) & (~sel[2]) & (~sel[1]) & (~sel[0]);
+			assign outlet[9] = unset_logic[2] & (sel[3]) & (~sel[2]) & (~sel[1]) & (sel[0]);
+			assign outlet[10] = unset_logic[3] & (sel[3]) & (~sel[2]) & (sel[1]) & (~sel[0]);
+			assign outlet[11] = unset_logic[4] & (sel[3]) & (~sel[2]) & (sel[1]) & (sel[0]);
+			assign outlet[12] = unset_logic[5] & (sel[3]) & (sel[2]) & (~sel[1]) & (~sel[0]);
+			assign outlet[13] = unset_logic[6] & (sel[3]) & (sel[2]) & (~sel[1]) & (sel[0]);
+			assign outlet[14] = unset_logic[7] & (sel[3]) & (sel[2]) & (sel[1]) & (~sel[0]);
+			assign outlet[15] = unset_logic[8] & (sel[3]) & (sel[2]) & (sel[1]) & (sel[0]);
+			assign OUTput = outlet[0]|outlet[1]|outlet[2]|outlet[3]|outlet[4]|outlet[5]|outlet[6]|outlet[7]|outlet[8]|outlet[9]|outlet[10]|outlet[11]|outlet[12]|outlet[13]|outlet[14]|outlet[15];
+	endmodule
+	
+//carry_block_4bits
+module carry_block_4bits(cin,p,g,carry_in,cout,P);
+//------------------------------------
+				output		[3:0] cin ;
+				input 		 carry_in ;
+				input  [3:0] p , g ;
+				output 		 cout, P ;
+//-----------------------------------
+			//carry block 4bits
+
+				assign cin[0] = carry_in ;   //the Cin entry
+				
+				assign cin[1] = ( cin[0] & p[0] ) | g[0] ; // going in next FA 1bits block
+				
+				assign cin[2] = ( cin[1] & p[1] ) | g[1] ;  // going in next FA 1bits block
+				
+				assign cin[3] = ( cin[2] & p[2] ) | g[2] ;  // going in next FA 1bits block
+				
+				assign cout   = ( cin[3] & p[3] ) | g[3] ;  // cout is also 'G'
+				
+				assign P      = p[0] & p[1] & p[2] & p[3] ; //   'P'
+				
+				
+				
+	endmodule
+//======================================================================================================
+	module FA_4bits(a,b,sum_dif,carry_in,cout,P,add_sub);
+//------------------------------------
+				input  [3:0] a , b ;
+				wire   [3:0] cin , p , g ;
+				input        carry_in , add_sub;
+				output [3:0] sum_dif ;
+				output       cout , P ;
+//------------------------------------
+			
+			//discrete block of 1 bit full adder
+							full_adder_1_bit FA_0 (a[0],b[0],sum_dif[0],p[0],g[0],cin[0],add_sub);
+							full_adder_1_bit FA_1 (a[1],b[1],sum_dif[1],p[1],g[1],cin[1],add_sub);
+							full_adder_1_bit FA_2 (a[2],b[2],sum_dif[2],p[2],g[2],cin[2],add_sub);
+							full_adder_1_bit FA_3 (a[3],b[3],sum_dif[3],p[3],g[3],cin[3],add_sub);
+			
+			//carry block 4bits
+			carry_block_4bits CLA_4bits_0(cin[3:0],p[3:0],g[3:0],carry_in,cout,P);
+		
+	endmodule
+	//*
+	
+	module Logical(a,b,sel,out);
+			input [31:0] a,b;
+			input 		 sel;
+			output[31:0] out;
+					
+					
+		
+	endmodule
+	
+	module FA_32bits(a,b,sum_dif,carry_in,cout,add_sub);//FA_32bits
+//------------------------------------
+				input  [31:0] a , b ;  
+				wire   [7:0] cin , p ,g ;		// for smaller 4bits modules
+				wire   [1:0] Cin;			// for final 32bits joint
+				input  	carry_in , add_sub;
+				output [31:0] sum_dif ;
+				wire [1:0]  P, G;
+				output cout;
+//------------------------------------
+				
+				// assembly of multiple 4-bits segments to one single 32-bits
+				
+				FA_4bits block0(a[3:0],b[3:0],sum_dif[3:0],cin[0],g[0],p[0],add_sub);
+				FA_4bits block1(a[7:4],b[7:4],sum_dif[7:4],cin[1],g[1],p[1],add_sub);
+				FA_4bits block2(a[11:8],b[11:8],sum_dif[11:8],cin[2],g[2],p[2],add_sub);
+				FA_4bits block3(a[15:12],b[15:12],sum_dif[15:12],cin[3],g[3],p[3],add_sub);
+				
+				carry_block_4bits CLA_4bits_1(cin[3:0],p[3:0],g[3:0],Cin[0],G[0],P[0]);// cout = g[3]; 'Cin[0]' entry for carry in 
+				
+				//===================================================================================
+				
+				FA_4bits block4(a[19:16],b[19:16],sum_dif[19:16],cin[4],g[4],p[4],add_sub);
+				FA_4bits block5(a[23:20],b[23:20],sum_dif[23:20],cin[5],g[5],p[5],add_sub);
+				FA_4bits block6(a[27:24],b[27:24],sum_dif[27:24],cin[6],g[6],p[6],add_sub);
+				FA_4bits block7(a[31:28],b[31:28],sum_dif[31:28],cin[7],g[7],p[7],add_sub);
+				
+				carry_block_4bits CLA_4bits_2(cin[7:4],p[7:4],g[7:4],Cin[1],G[1],P[1]);// cout = g[3];
+				
+				// 2 bits carry block top of the add/sub module.
+				assign  Cin[0]  = carry_in ;
+				assign  Cin[1]  = ( Cin[0] & P[0] ) | G[0] ; 
+				assign  cout 	 = ( Cin[1] & P[1] ) | G[1] ;
+				//assign  P_ 		 = P[1] & P[0] ;
+				
+	endmodule
+	
+	module ALU(a,b,result,sel,overflow);
+	
+	input [31:0] 	a,b ;
+	input [3:0] 	sel;
+	wire 			add_sub;
+	wire[31:0]	arithmetic, AND, OR, XOR, NOT;
+	output [31:0] result;
+	output overflow;
+	
+	assign  AND[31:0] = a[31:0] & b[31:0];
+	assign  OR[31:0] = a[31:0] | b[31:0];
+	assign  XOR[31:0] = a[31:0] ^ b[31:0];
+	assign  NOT[31:0] = ~a[31:0];
+	//mode 0 and 1
+	assign add_sub = (~sel[3]) & (~sel[2]) & (~sel[1]) & (sel[0]);
+	
+	FA_32bits 	FA0 (a[31:0],b[31:0],arithmetic[31:0],add_sub,overflow,add_sub);
+	
+	genvar i;
+		generate
+		
+			for(i=0;i < 32 ; i++)
+			
+				begin: MUX_16_to_1_selecting_block
+				mux_4 M0 (.sel(sel[3:0]),.OUTput(result[i]),.addition(arithmetic[i]),.subtraction(arithmetic[i]),.and_logic(AND[i]),.or_logic(OR[i]),.xor_logic(XOR[i]),.not_logic(NOT[i]));
+		
+				end
+		
+		endgenerate
+	
+	
+	
+	endmodule
+	
+	

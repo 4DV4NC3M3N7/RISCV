@@ -1,0 +1,23 @@
+module Top_module_SV(sel,OUTput,INput);
+	input [15:0] INput;
+	input [3:0] sel;
+	wire [15:0]outlet;
+	output[15:0]OUTput;
+			assign outlet[0] = INput[0] & (~sel[0]) & (~sel[1]) & (~sel[2]) & (~sel[3]);
+			assign outlet[1] = INput[1] & (~sel[0]) & (~sel[1]) & (~sel[2]) & (sel[3]);
+			assign outlet[2] = INput[2] & (~sel[0]) & (~sel[1]) & (sel[2]) & (~sel[3]);
+			assign outlet[3] = INput[3] & (~sel[0]) & (~sel[1]) & (sel[2]) & (sel[3]);
+			assign outlet[4] = INput[4] & (~sel[0]) & (sel[1]) & (~sel[2]) & (~sel[3]);
+			assign outlet[5] = INput[5] & (~sel[0]) & (sel[1]) & (~sel[2]) & (sel[3]);
+			assign outlet[6] = INput[6] & (~sel[0]) & (sel[1]) & (sel[2]) & (~sel[3]);
+			assign outlet[7] = INput[7] & (~sel[0]) & (sel[1]) & (sel[2]) & (sel[3]);
+			assign outlet[8] = INput[8] & (sel[0]) & (~sel[1]) & (~sel[2]) & (~sel[3]);
+			assign outlet[9] = INput[9] & (sel[0]) & (~sel[1]) & (~sel[2]) & (sel[3]);
+			assign outlet[10] = INput[10] & (sel[0]) & (~sel[1]) & (sel[2]) & (~sel[3]);
+			assign outlet[11] = INput[11] & (sel[0]) & (~sel[1]) & (sel[2]) & (sel[3]);
+			assign outlet[12] = INput[12] & (sel[0]) & (sel[1]) & (~sel[2]) & (~sel[3]);
+			assign outlet[13] = INput[13] & (sel[0]) & (sel[1]) & (~sel[2]) & (sel[3]);
+			assign outlet[14] = INput[14] & (sel[0]) & (sel[1]) & (sel[2]) & (~sel[3]);
+			assign outlet[15] = INput[15] & (sel[0]) & (sel[1]) & (sel[2]) & (sel[3]);
+			assign OUTput = outlet[0]|outlet[1]|outlet[2]|outlet[3]|outlet[4]|outlet[5]|outlet[6]|outlet[7]|outlet[8]|outlet[9]|outlet[10]|outlet[11]|outlet[12]|outlet[13]|outlet[14]|outlet[15];
+	endmodule

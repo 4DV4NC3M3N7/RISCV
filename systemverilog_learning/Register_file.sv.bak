@@ -1,0 +1,8 @@
+
+module Register_file(RR1,RR2,WR,WD,RD1,RD2);
+	input RR1,RR2,WR,WD;
+	output RD1,RD2;
+				
+
+
+endmodule 

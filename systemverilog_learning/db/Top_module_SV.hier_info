@@ -1,0 +1,6486 @@
+|Top_module_SV
+in[0] => ~NO_FANOUT~
+in[1] => ~NO_FANOUT~
+in[2] => ~NO_FANOUT~
+in[3] => ~NO_FANOUT~
+in[4] => ~NO_FANOUT~
+in[5] => ~NO_FANOUT~
+in[6] => ~NO_FANOUT~
+in[7] => ~NO_FANOUT~
+in[8] => ~NO_FANOUT~
+in[9] => ~NO_FANOUT~
+in[10] => ~NO_FANOUT~
+in[11] => ~NO_FANOUT~
+in[12] => ~NO_FANOUT~
+in[13] => ~NO_FANOUT~
+in[14] => ~NO_FANOUT~
+in[15] => ~NO_FANOUT~
+in[16] => ~NO_FANOUT~
+in[17] => ~NO_FANOUT~
+in[18] => ~NO_FANOUT~
+in[19] => ~NO_FANOUT~
+in[20] => ~NO_FANOUT~
+in[21] => ~NO_FANOUT~
+in[22] => ~NO_FANOUT~
+in[23] => ~NO_FANOUT~
+in[24] => ~NO_FANOUT~
+in[25] => ~NO_FANOUT~
+in[26] => ~NO_FANOUT~
+in[27] => ~NO_FANOUT~
+in[28] => ~NO_FANOUT~
+in[29] => ~NO_FANOUT~
+in[30] => ~NO_FANOUT~
+in[31] => ~NO_FANOUT~
+out << <GND>
+sel[0] => ~NO_FANOUT~
+sel[1] => ~NO_FANOUT~
+sel[2] => ~NO_FANOUT~
+sel[3] => ~NO_FANOUT~
+sel[4] => ~NO_FANOUT~
+
+
+|Top_module_SV|ALU:comb_3
+a[0] => a[0].IN3
+a[1] => a[1].IN3
+a[2] => a[2].IN3
+a[3] => a[3].IN3
+a[4] => a[4].IN3
+a[5] => a[5].IN3
+a[6] => a[6].IN3
+a[7] => a[7].IN3
+a[8] => a[8].IN3
+a[9] => a[9].IN3
+a[10] => a[10].IN3
+a[11] => a[11].IN3
+a[12] => a[12].IN3
+a[13] => a[13].IN3
+a[14] => a[14].IN3
+a[15] => a[15].IN3
+a[16] => a[16].IN3
+a[17] => a[17].IN3
+a[18] => a[18].IN3
+a[19] => a[19].IN3
+a[20] => a[20].IN3
+a[21] => a[21].IN3
+a[22] => a[22].IN3
+a[23] => a[23].IN3
+a[24] => a[24].IN3
+a[25] => a[25].IN3
+a[26] => a[26].IN3
+a[27] => a[27].IN3
+a[28] => a[28].IN3
+a[29] => a[29].IN3
+a[30] => a[30].IN3
+a[31] => a[31].IN3
+b[0] => b[0].IN3
+b[1] => b[1].IN3
+b[2] => b[2].IN3
+b[3] => b[3].IN3
+b[4] => b[4].IN3
+b[5] => b[5].IN3
+b[6] => b[6].IN3
+b[7] => b[7].IN3
+b[8] => b[8].IN3
+b[9] => b[9].IN3
+b[10] => b[10].IN3
+b[11] => b[11].IN3
+b[12] => b[12].IN3
+b[13] => b[13].IN3
+b[14] => b[14].IN3
+b[15] => b[15].IN3
+b[16] => b[16].IN3
+b[17] => b[17].IN3
+b[18] => b[18].IN3
+b[19] => b[19].IN3
+b[20] => b[20].IN3
+b[21] => b[21].IN3
+b[22] => b[22].IN3
+b[23] => b[23].IN3
+b[24] => b[24].IN3
+b[25] => b[25].IN3
+b[26] => b[26].IN3
+b[27] => b[27].IN3
+b[28] => b[28].IN3
+b[29] => b[29].IN3
+b[30] => b[30].IN3
+b[31] => b[31].IN3
+result[0] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[0].Mux_ALU_module.OUTput
+result[1] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[1].Mux_ALU_module.OUTput
+result[2] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[2].Mux_ALU_module.OUTput
+result[3] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[3].Mux_ALU_module.OUTput
+result[4] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[4].Mux_ALU_module.OUTput
+result[5] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[5].Mux_ALU_module.OUTput
+result[6] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[6].Mux_ALU_module.OUTput
+result[7] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[7].Mux_ALU_module.OUTput
+result[8] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[8].Mux_ALU_module.OUTput
+result[9] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[9].Mux_ALU_module.OUTput
+result[10] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[10].Mux_ALU_module.OUTput
+result[11] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[11].Mux_ALU_module.OUTput
+result[12] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[12].Mux_ALU_module.OUTput
+result[13] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[13].Mux_ALU_module.OUTput
+result[14] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[14].Mux_ALU_module.OUTput
+result[15] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[15].Mux_ALU_module.OUTput
+result[16] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[16].Mux_ALU_module.OUTput
+result[17] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[17].Mux_ALU_module.OUTput
+result[18] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[18].Mux_ALU_module.OUTput
+result[19] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[19].Mux_ALU_module.OUTput
+result[20] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[20].Mux_ALU_module.OUTput
+result[21] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[21].Mux_ALU_module.OUTput
+result[22] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[22].Mux_ALU_module.OUTput
+result[23] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[23].Mux_ALU_module.OUTput
+result[24] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[24].Mux_ALU_module.OUTput
+result[25] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[25].Mux_ALU_module.OUTput
+result[26] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[26].Mux_ALU_module.OUTput
+result[27] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[27].Mux_ALU_module.OUTput
+result[28] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[28].Mux_ALU_module.OUTput
+result[29] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[29].Mux_ALU_module.OUTput
+result[30] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[30].Mux_ALU_module.OUTput
+result[31] <= mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[31].Mux_ALU_module.OUTput
+sel[0] => sel[0].IN32
+sel[1] => sel[1].IN32
+sel[2] => sel[2].IN32
+sel[3] => sel[3].IN32
+V <= FA_32bits:FA_0.port5
+C <= FA_32bits:FA_0.port4
+Less <= Compare_module:CMP_module_v1.port2
+More <= Compare_module:CMP_module_v1.port3
+Even <= Compare_module:CMP_module_v1.port4
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= Even.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[0].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[4].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[8].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[12].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[16].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[20].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[24].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[28].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_subs[0].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_subs[4].cell_
+a[0] => cmp.IN0
+a[0] => More.IN0
+a[0] => Less.IN0
+a[1] => cmp.IN0
+a[1] => More.IN0
+a[1] => Less.IN0
+a[2] => cmp.IN0
+a[2] => More.IN0
+a[2] => Less.IN0
+a[3] => cmp[3].IN0
+a[3] => More.IN0
+a[3] => Less.IN0
+b[0] => cmp.IN1
+b[0] => Less.IN1
+b[0] => More.IN1
+b[1] => cmp.IN1
+b[1] => Less.IN1
+b[1] => More.IN1
+b[2] => cmp.IN1
+b[2] => Less.IN1
+b[2] => More.IN1
+b[3] => cmp[3].IN1
+b[3] => Less.IN1
+b[3] => More.IN1
+Less <= Less.DB_MAX_OUTPUT_PORT_TYPE
+More <= More.DB_MAX_OUTPUT_PORT_TYPE
+Even <= <GND>
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1
+in[0] => stage_left[31][0].IN3
+in[1] => stage_right[31][1].IN4
+in[2] => stage_right[31][2].IN4
+in[3] => stage_right[31][3].IN4
+in[4] => stage_right[31][4].IN4
+in[5] => stage_right[31][5].IN4
+in[6] => stage_right[31][6].IN4
+in[7] => stage_right[31][7].IN4
+in[8] => stage_right[31][8].IN4
+in[9] => stage_right[31][9].IN4
+in[10] => stage_right[31][10].IN4
+in[11] => stage_right[31][11].IN4
+in[12] => stage_right[31][12].IN4
+in[13] => stage_right[31][13].IN4
+in[14] => stage_right[31][14].IN4
+in[15] => stage_right[31][15].IN4
+in[16] => stage_right[31][16].IN4
+in[17] => stage_right[31][17].IN4
+in[18] => stage_right[31][18].IN4
+in[19] => stage_right[31][19].IN4
+in[20] => stage_right[31][20].IN4
+in[21] => stage_right[31][21].IN4
+in[22] => stage_right[31][22].IN4
+in[23] => stage_right[31][23].IN4
+in[24] => stage_right[31][24].IN4
+in[25] => stage_right[31][25].IN4
+in[26] => stage_right[31][26].IN4
+in[27] => stage_right[31][27].IN4
+in[28] => stage_right[31][28].IN4
+in[29] => stage_right[31][29].IN4
+in[30] => stage_right[31][30].IN4
+in[31] => stage_right[31][31].IN3
+scale[0] => scale[0].IN64
+scale[1] => scale[1].IN64
+scale[2] => scale[2].IN64
+scale[3] => scale[3].IN64
+scale[4] => scale[4].IN64
+scale[5] => ~NO_FANOUT~
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_right.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+scale[6] => stage_left.IN1
+right_output[0] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[1] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[2] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[3] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[4] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[5] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[6] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[7] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[8] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[9] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[10] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[11] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[12] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[13] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[14] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[15] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[16] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[17] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[18] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[19] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[20] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[21] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[22] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[23] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[24] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[25] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[26] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[27] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[28] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[29] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[30] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+right_output[31] <= stage_right.DB_MAX_OUTPUT_PORT_TYPE
+left_output[0] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[1] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[2] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[3] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[4] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[5] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[6] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[7] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[8] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[9] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[10] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[11] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[12] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[13] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[14] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[15] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[16] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[17] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[18] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[19] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[20] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[21] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[22] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[23] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[24] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[25] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[26] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[27] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[28] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[29] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[30] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+left_output[31] <= stage_left.DB_MAX_OUTPUT_PORT_TYPE
+SAR_select => SAR_select.IN31
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[0].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[0].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[1].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[1].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[2].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[2].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[3].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[3].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[4].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[4].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[5].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[5].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[6].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[6].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[7].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[7].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[8].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[8].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[9].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[9].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[10].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[10].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[11].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[11].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[12].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[12].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[13].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[13].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[14].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[14].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[15].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[15].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[16].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[16].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[17].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[17].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[18].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[18].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[19].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[19].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[20].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[20].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[21].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[21].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[22].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[22].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[23].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[23].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[24].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[24].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[25].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[25].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[26].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[26].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[27].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[27].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[28].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[28].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[29].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[29].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[30].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[30].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[31].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[31].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[0].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[0].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[1].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[1].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[2].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[2].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[3].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[3].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[4].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[4].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[5].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[5].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[6].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[6].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[7].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[7].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[8].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[8].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[9].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[9].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[10].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[10].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[11].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[11].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[12].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[12].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[13].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[13].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[14].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[14].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[15].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[15].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[16].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[16].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[17].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[17].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[18].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[18].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[19].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[19].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[20].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[20].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[21].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[21].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[22].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[22].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[23].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[23].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[24].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[24].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[25].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[25].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[26].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[26].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[27].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[27].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[28].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[28].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[29].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[29].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[30].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[30].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[31].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[31].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[0].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[0].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[1].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[1].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[2].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[2].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[3].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[3].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[4].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[4].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[5].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[5].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[6].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[6].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[7].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[7].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[8].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[8].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[9].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[9].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[10].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[10].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[11].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[11].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[12].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[12].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[13].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[13].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[14].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[14].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[15].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[15].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[16].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[16].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[17].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[17].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[18].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[18].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[19].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[19].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[20].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[20].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[21].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[21].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[22].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[22].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[23].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[23].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[24].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[24].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[25].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[25].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[26].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[26].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[27].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[27].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[28].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[28].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[29].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[29].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[30].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[30].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[31].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[31].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[0].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[0].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[1].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[1].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[2].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[2].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[3].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[3].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[4].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[4].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[5].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[5].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[6].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[6].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[7].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[7].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[8].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[8].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[9].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[9].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[10].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[10].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[11].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[11].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[12].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[12].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[13].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[13].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[14].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[14].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[15].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[15].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[16].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[16].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[17].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[17].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[18].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[18].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[19].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[19].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[20].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[20].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[21].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[21].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[22].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[22].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[23].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[23].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[24].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[24].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[25].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[25].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[26].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[26].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[27].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[27].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[28].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[28].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[29].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[29].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[30].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[30].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[31].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[31].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[0].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[0].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[1].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[1].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[2].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[2].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[3].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[3].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[4].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[4].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[5].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[5].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[6].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[6].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[7].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[7].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[8].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[8].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[9].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[9].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[10].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[10].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[11].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[11].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[12].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[12].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[13].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[13].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[14].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[14].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[15].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[15].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[16].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[16].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[17].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[17].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[18].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[18].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[19].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[19].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[20].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[20].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[21].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[21].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[22].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[22].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[23].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[23].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[24].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[24].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[25].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[25].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[26].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[26].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[27].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[27].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[28].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[28].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[29].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[29].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[30].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[30].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[31].SLL
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[31].SLR
+b => y.DATAB
+a => y.DATAA
+s => y.OUTPUTSELECT
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+a[8] => a[8].IN1
+a[9] => a[9].IN1
+a[10] => a[10].IN1
+a[11] => a[11].IN1
+a[12] => a[12].IN1
+a[13] => a[13].IN1
+a[14] => a[14].IN1
+a[15] => a[15].IN1
+a[16] => a[16].IN1
+a[17] => a[17].IN1
+a[18] => a[18].IN1
+a[19] => a[19].IN1
+a[20] => a[20].IN1
+a[21] => a[21].IN1
+a[22] => a[22].IN1
+a[23] => a[23].IN1
+a[24] => a[24].IN1
+a[25] => a[25].IN1
+a[26] => a[26].IN1
+a[27] => a[27].IN1
+a[28] => a[28].IN1
+a[29] => a[29].IN1
+a[30] => a[30].IN1
+a[31] => a[31].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+b[8] => b[8].IN1
+b[9] => b[9].IN1
+b[10] => b[10].IN1
+b[11] => b[11].IN1
+b[12] => b[12].IN1
+b[13] => b[13].IN1
+b[14] => b[14].IN1
+b[15] => b[15].IN1
+b[16] => b[16].IN1
+b[17] => b[17].IN1
+b[18] => b[18].IN1
+b[19] => b[19].IN1
+b[20] => b[20].IN1
+b[21] => b[21].IN1
+b[22] => b[22].IN1
+b[23] => b[23].IN1
+b[24] => b[24].IN1
+b[25] => b[25].IN1
+b[26] => b[26].IN1
+b[27] => b[27].IN1
+b[28] => b[28].IN1
+b[29] => b[29].IN1
+b[30] => b[30].IN1
+b[31] => b[31].IN1
+sum_dif[0] <= FA_4bits:block0.port2
+sum_dif[1] <= FA_4bits:block0.port2
+sum_dif[2] <= FA_4bits:block0.port2
+sum_dif[3] <= FA_4bits:block0.port2
+sum_dif[4] <= FA_4bits:block1.port2
+sum_dif[5] <= FA_4bits:block1.port2
+sum_dif[6] <= FA_4bits:block1.port2
+sum_dif[7] <= FA_4bits:block1.port2
+sum_dif[8] <= FA_4bits:block2.port2
+sum_dif[9] <= FA_4bits:block2.port2
+sum_dif[10] <= FA_4bits:block2.port2
+sum_dif[11] <= FA_4bits:block2.port2
+sum_dif[12] <= FA_4bits:block3.port2
+sum_dif[13] <= FA_4bits:block3.port2
+sum_dif[14] <= FA_4bits:block3.port2
+sum_dif[15] <= FA_4bits:block3.port2
+sum_dif[16] <= FA_4bits:block4.port2
+sum_dif[17] <= FA_4bits:block4.port2
+sum_dif[18] <= FA_4bits:block4.port2
+sum_dif[19] <= FA_4bits:block4.port2
+sum_dif[20] <= FA_4bits:block5.port2
+sum_dif[21] <= FA_4bits:block5.port2
+sum_dif[22] <= FA_4bits:block5.port2
+sum_dif[23] <= FA_4bits:block5.port2
+sum_dif[24] <= FA_4bits:block6.port2
+sum_dif[25] <= FA_4bits:block6.port2
+sum_dif[26] <= FA_4bits:block6.port2
+sum_dif[27] <= FA_4bits:block6.port2
+sum_dif[28] <= FA_4bits:block7.port2
+sum_dif[29] <= FA_4bits:block7.port2
+sum_dif[30] <= FA_4bits:block7.port2
+sum_dif[31] <= FA_4bits:block7.port2
+carry_in => Cin[0].IN1
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+V <= V.DB_MAX_OUTPUT_PORT_TYPE
+add_sub => add_sub.IN8
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block1|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block1|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block1|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block1|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block1|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block2
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block2|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block2|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block2|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block2|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block2|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block3
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block3|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block3|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block3|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block3|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block3|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|carry_block_4bits:CLA_4bits_1
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block4
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block4|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block4|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block4|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block4|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block4|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block5
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block5|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block5|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block5|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block5|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block5|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block6
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block6|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block6|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block6|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block6|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block6|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block7
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+sum_dif[0] <= full_adder_1_bit:FA_0.port2
+sum_dif[1] <= full_adder_1_bit:FA_1.port2
+sum_dif[2] <= full_adder_1_bit:FA_2.port2
+sum_dif[3] <= full_adder_1_bit:FA_3.port2
+carry_in => carry_in.IN1
+cout <= carry_block_4bits:CLA_4bits_0.port4
+P <= carry_block_4bits:CLA_4bits_0.port5
+add_sub => add_sub.IN4
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block7|full_adder_1_bit:FA_0
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block7|full_adder_1_bit:FA_1
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block7|full_adder_1_bit:FA_2
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block7|full_adder_1_bit:FA_3
+a => g.IN1
+a => sum_dif.IN1
+b => B.IN0
+sum_dif <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+p <= sum_dif.DB_MAX_OUTPUT_PORT_TYPE
+g <= g.DB_MAX_OUTPUT_PORT_TYPE
+cin => sum_dif.IN1
+add_sub => B.IN1
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|FA_4bits:block7|carry_block_4bits:CLA_4bits_0
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|FA_32bits:FA_0|carry_block_4bits:CLA_4bits_2
+cin[0] <= carry_in.DB_MAX_OUTPUT_PORT_TYPE
+cin[1] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[2] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+cin[3] <= cin.DB_MAX_OUTPUT_PORT_TYPE
+p[0] => cin.IN0
+p[0] => P.IN0
+p[1] => cin.IN1
+p[1] => P.IN1
+p[2] => cin.IN1
+p[2] => P.IN1
+p[3] => cout.IN1
+p[3] => P.IN1
+g[0] => cin.IN1
+g[1] => cin.IN1
+g[2] => cin.IN1
+g[3] => cout.IN1
+carry_in => cin.IN1
+carry_in => cin[0].DATAIN
+cout <= cout.DB_MAX_OUTPUT_PORT_TYPE
+P <= P.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[0].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[1].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[2].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[3].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[4].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[5].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[6].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[7].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[8].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[9].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[10].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[11].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[12].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[13].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[14].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[15].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[16].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[17].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[18].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[19].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[20].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[21].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[22].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[23].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[24].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[25].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[26].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[27].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[28].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[29].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[30].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+
+|Top_module_SV|ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[31].Mux_ALU_module
+sel[0] => outlet[1].IN1
+sel[0] => outlet[3].IN1
+sel[0] => outlet[5].IN1
+sel[0] => outlet[7].IN1
+sel[0] => outlet[9].IN1
+sel[0] => outlet[11].IN1
+sel[0] => outlet[13].IN1
+sel[0] => outlet[15].IN1
+sel[0] => outlet[14].IN1
+sel[0] => outlet[12].IN1
+sel[0] => outlet[10].IN1
+sel[0] => outlet[8].IN1
+sel[0] => outlet[6].IN1
+sel[0] => outlet[4].IN1
+sel[0] => outlet[2].IN1
+sel[0] => outlet[0].IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[1] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[2] => outlet.IN1
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+sel[3] => outlet.IN0
+OUTput <= OUTput.DB_MAX_OUTPUT_PORT_TYPE
+addition => outlet.IN1
+subtraction => outlet.IN1
+and_logic => outlet.IN1
+or_logic => outlet.IN1
+xor_logic => outlet.IN1
+shiftL_logic => outlet.IN1
+shiftR_logic => outlet.IN1
+shiftR_arithmetic => outlet.IN1
+unset_logic[1] => ~NO_FANOUT~
+unset_logic[2] => outlet.IN1
+unset_logic[3] => outlet.IN1
+unset_logic[4] => outlet.IN1
+unset_logic[5] => outlet.IN1
+unset_logic[6] => outlet.IN1
+unset_logic[7] => outlet.IN1
+unset_logic[8] => outlet.IN1
+not_logic => outlet.IN1
+
+

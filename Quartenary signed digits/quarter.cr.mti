@@ -1,0 +1,11 @@
+{G:/VLSI_ASIC_IC_designs/quartus_project/Quartenary signed digits/quarter.sv} {1 {vlog -work work -sv -stats=none {G:/VLSI_ASIC_IC_designs/quartus_project/Quartenary signed digits/quarter.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_32bits_cell
+-- Compiling module decoder_5bits
+-- Compiling module MUX_32x32bits
+-- Compiling module quarter
+
+Top level modules:
+	quarter
+
+} {} {}}

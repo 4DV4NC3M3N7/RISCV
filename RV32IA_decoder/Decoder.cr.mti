@@ -1,0 +1,9 @@
+G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/RV32IA_decoder/Decoder.sv {1 {vlog -work work -sv -stats=none G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/RV32IA_decoder/Decoder.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Decoder
+-- Compiling module decode
+
+Top level modules:
+	Decoder
+
+} {} {}}

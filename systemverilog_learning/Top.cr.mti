@@ -1,0 +1,41 @@
+G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/ALU.sv {1 {vlog -work work -sv -stats=none G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/ALU.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module full_adder_1_bit
+-- Compiling module mux_2
+-- Compiling module logic_shifter
+-- Compiling module CMP_cell
+-- Compiling module Compare_module
+-- Compiling module mux_ALU_select_16_functions
+-- Compiling module carry_block_4bits
+-- Compiling module FA_4bits
+-- Compiling module FA_32bits
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Data_Memory.sv {1 {vlog -work work -sv -stats=none G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Data_Memory.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Data_Memory
+
+Top level modules:
+	Data_Memory
+
+} {} {}} G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Top_module_SV.sv {1 {vlog -work work -sv -stats=none G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Top_module_SV.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Top_module_SV
+
+Top level modules:
+	Top_module_SV
+
+} {} {}} G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Register_file.sv {1 {vlog -work work -sv -stats=none G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Register_file.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module Register_32bits_cell
+-- Compiling module decoder_5bits
+-- Compiling module MUX_32x32bits
+-- Compiling module Register_file
+
+Top level modules:
+	Register_file
+
+} {} {}}

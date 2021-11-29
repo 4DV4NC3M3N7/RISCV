@@ -1,0 +1,1101 @@
+Analysis & Synthesis report for Top_module_SV
+Sun Oct 24 00:15:42 2021
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[31].Mux_ALU_module"
+ 10. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[30].Mux_ALU_module"
+ 11. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[29].Mux_ALU_module"
+ 12. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[28].Mux_ALU_module"
+ 13. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[27].Mux_ALU_module"
+ 14. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[26].Mux_ALU_module"
+ 15. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[25].Mux_ALU_module"
+ 16. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[24].Mux_ALU_module"
+ 17. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[23].Mux_ALU_module"
+ 18. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[22].Mux_ALU_module"
+ 19. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[21].Mux_ALU_module"
+ 20. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[20].Mux_ALU_module"
+ 21. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[19].Mux_ALU_module"
+ 22. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[18].Mux_ALU_module"
+ 23. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[17].Mux_ALU_module"
+ 24. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[16].Mux_ALU_module"
+ 25. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[15].Mux_ALU_module"
+ 26. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[14].Mux_ALU_module"
+ 27. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[13].Mux_ALU_module"
+ 28. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[12].Mux_ALU_module"
+ 29. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[11].Mux_ALU_module"
+ 30. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[10].Mux_ALU_module"
+ 31. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[9].Mux_ALU_module"
+ 32. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[8].Mux_ALU_module"
+ 33. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[7].Mux_ALU_module"
+ 34. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[6].Mux_ALU_module"
+ 35. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[5].Mux_ALU_module"
+ 36. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[4].Mux_ALU_module"
+ 37. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[3].Mux_ALU_module"
+ 38. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[2].Mux_ALU_module"
+ 39. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[1].Mux_ALU_module"
+ 40. Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[0].Mux_ALU_module"
+ 41. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[15].SLL"
+ 42. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[14].SLL"
+ 43. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[13].SLL"
+ 44. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[12].SLL"
+ 45. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[11].SLL"
+ 46. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[10].SLL"
+ 47. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[9].SLL"
+ 48. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[8].SLL"
+ 49. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[7].SLL"
+ 50. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[6].SLL"
+ 51. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[5].SLL"
+ 52. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[4].SLL"
+ 53. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[3].SLL"
+ 54. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[2].SLL"
+ 55. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[1].SLL"
+ 56. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[0].SLL"
+ 57. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[7].SLL"
+ 58. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[6].SLL"
+ 59. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[5].SLL"
+ 60. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[4].SLL"
+ 61. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[3].SLL"
+ 62. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[2].SLL"
+ 63. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[1].SLL"
+ 64. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[0].SLL"
+ 65. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[3].SLL"
+ 66. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[2].SLL"
+ 67. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[1].SLL"
+ 68. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[0].SLL"
+ 69. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[1].SLL"
+ 70. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[0].SLL"
+ 71. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[0].SLL"
+ 72. Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1"
+ 73. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_subs[4].cell_"
+ 74. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_subs[0].cell_"
+ 75. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[28].cell_"
+ 76. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[24].cell_"
+ 77. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[20].cell_"
+ 78. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[16].cell_"
+ 79. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[12].cell_"
+ 80. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[8].cell_"
+ 81. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[4].cell_"
+ 82. Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[0].cell_"
+ 83. Post-Synthesis Netlist Statistics for Top Partition
+ 84. Elapsed Time Per Partition
+ 85. Analysis & Synthesis Messages
+ 86. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sun Oct 24 00:15:42 2021       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; Top_module_SV                               ;
+; Top-level Entity Name           ; Top_module_SV                               ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 38                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CGXFC7C7F23C8     ;                    ;
+; Top-level entity name                                                           ; Top_module_SV      ; Top_module_SV      ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                            ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                        ; Library ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
+; Top_module_SV.sv                 ; yes             ; User SystemVerilog HDL File  ; G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv ;         ;
+; ALU.sv                           ; yes             ; User SystemVerilog HDL File  ; G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv           ;         ;
++----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimate of Logic utilization (ALMs needed) ; 0     ;
+;                                             ;       ;
+; Combinational ALUT usage for logic          ; 0     ;
+;     -- 7 input functions                    ; 0     ;
+;     -- 6 input functions                    ; 0     ;
+;     -- 5 input functions                    ; 0     ;
+;     -- 4 input functions                    ; 0     ;
+;     -- <=3 input functions                  ; 0     ;
+;                                             ;       ;
+; Dedicated logic registers                   ; 0     ;
+;                                             ;       ;
+; I/O pins                                    ; 38    ;
+;                                             ;       ;
+; Total DSP Blocks                            ; 0     ;
+;                                             ;       ;
+; Maximum fan-out node                        ; in[0] ;
+; Maximum fan-out                             ; 1     ;
+; Total fan-out                               ; 38    ;
+; Average fan-out                             ; 0.50  ;
++---------------------------------------------+-------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                      ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+---------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name   ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+---------------+--------------+
+; |Top_module_SV             ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 38   ; 0            ; |Top_module_SV      ; Top_module_SV ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+---------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[31].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[30].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[29].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[28].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[27].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[26].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[25].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[24].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[23].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[22].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[21].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[20].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[19].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[18].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[17].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[16].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[15].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[14].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[13].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[12].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[11].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[10].Mux_ALU_module"                                                             ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[9].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[8].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[7].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[6].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[5].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[4].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[3].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[2].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[1].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[0].Mux_ALU_module"                                                              ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                                                                                                                      ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; unset_logic ; Input ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
++-------------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[15].SLL" ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                                ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[14].SLL" ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                                ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[13].SLL" ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                                ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[12].SLL" ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                                ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[11].SLL" ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                                ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[10].SLL" ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                     ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                                ;
++------+-------+----------+---------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[9].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[8].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[7].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[6].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[5].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[4].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[3].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[2].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[1].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[16].SL_LAYERS_OF_Ns_[0].SLL" ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                    ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                               ;
++------+-------+----------+--------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[7].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[6].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[5].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[4].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[3].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[2].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[1].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[8].SL_LAYERS_OF_Ns_[0].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[3].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[2].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[1].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[4].SL_LAYERS_OF_Ns_[0].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[1].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SLL_N_LAYERS_[2].SL_LAYERS_OF_Ns_[0].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                                   ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                                              ;
++------+-------+----------+-------------------------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[0].SLL" ;
++------+-------+----------+-------------------------------------------------------------------------+
+; Port ; Type  ; Severity ; Details                                                                 ;
++------+-------+----------+-------------------------------------------------------------------------+
+; b    ; Input ; Info     ; Stuck at GND                                                            ;
++------+-------+----------+-------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|logic_shifter:shift_module_v1"                                                                                                                                          ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port  ; Type  ; Severity ; Details                                                                                                                                                                            ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; scale ; Input ; Warning  ; Input port expression (32 bits) is wider than the input port (7 bits) it drives.  The 25 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
++-------+-------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_subs[4].cell_"                                        ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_subs[0].cell_"                                        ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[28].cell_"                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[24].cell_"                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[20].cell_"                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[16].cell_"                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[12].cell_"                                     ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[8].cell_"                                      ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[4].cell_"                                      ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[0].cell_"                                      ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port ; Type   ; Severity ; Details                                                                                                  ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Even ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 1                           ;
+;     normal            ; 1                           ;
+;         0 data inputs ; 1                           ;
+; boundary_port         ; 38                          ;
+;                       ;                             ;
+; Max LUT depth         ; 0.00                        ;
+; Average LUT depth     ; 0.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Sun Oct 24 00:15:25 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Top_module_SV -c Top_module_SV
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 2 entities, in source file data_memory.sv
+    Info (12023): Found entity 1: Data_Memory File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Data_Memory.sv Line: 6
+    Info (12023): Found entity 2: SRAM_cell File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Data_Memory.sv Line: 18
+Info (12021): Found 1 design units, including 1 entities, in source file top_module_sv.sv
+    Info (12023): Found entity 1: Top_module_SV File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 3
+Info (12021): Found 10 design units, including 10 entities, in source file alu.sv
+    Info (12023): Found entity 1: full_adder_1_bit File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 7
+    Info (12023): Found entity 2: mux_2 File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 24
+    Info (12023): Found entity 3: logic_shifter File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 34
+    Info (12023): Found entity 4: CMP_cell File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 95
+    Info (12023): Found entity 5: Compare_module File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 113
+    Info (12023): Found entity 6: mux_ALU_select_16_functions File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 139
+    Info (12023): Found entity 7: carry_block_4bits File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 187
+    Info (12023): Found entity 8: FA_4bits File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 213
+    Info (12023): Found entity 9: FA_32bits File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 235
+    Info (12023): Found entity 10: ALU File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 274
+Info (12021): Found 4 design units, including 4 entities, in source file register_file.sv
+    Info (12023): Found entity 1: Register_32bits_cell File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Register_file.sv Line: 6
+    Info (12023): Found entity 2: decoder_5bits File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Register_file.sv Line: 32
+    Info (12023): Found entity 3: MUX_32x32bits File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Register_file.sv Line: 74
+    Info (12023): Found entity 4: Register_file File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Register_file.sv Line: 122
+Critical Warning (10846): Verilog HDL Instantiation warning at Data_Memory.sv(12): instance has no name File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Data_Memory.sv Line: 12
+Critical Warning (10846): Verilog HDL Instantiation warning at Top_module_SV.sv(11): instance has no name File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 11
+Info (12127): Elaborating entity "Top_module_SV" for the top level hierarchy
+Warning (10034): Output port "out" at Top_module_SV.sv(8) has no driver File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 8
+Info (12128): Elaborating entity "ALU" for hierarchy "ALU:comb_3" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 11
+Warning (10036): Verilog HDL or VHDL warning at ALU.sv(279): object "SAR" assigned a value but never read File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 279
+Info (12128): Elaborating entity "Compare_module" for hierarchy "ALU:comb_3|Compare_module:CMP_module_v1" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 285
+Info (12128): Elaborating entity "CMP_cell" for hierarchy "ALU:comb_3|Compare_module:CMP_module_v1|CMP_cell:n_blocks[0].cell_" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 122
+Warning (10034): Output port "Even" at ALU.sv(98) has no driver File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 98
+Info (12128): Elaborating entity "logic_shifter" for hierarchy "ALU:comb_3|logic_shifter:shift_module_v1" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 294
+Info (12128): Elaborating entity "mux_2" for hierarchy "ALU:comb_3|logic_shifter:shift_module_v1|mux_2:SL_LAYERS_OF_Ns[0].SLL" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 58
+Info (12128): Elaborating entity "FA_32bits" for hierarchy "ALU:comb_3|FA_32bits:FA_0" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 316
+Info (12128): Elaborating entity "FA_4bits" for hierarchy "ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 247
+Info (12128): Elaborating entity "full_adder_1_bit" for hierarchy "ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|full_adder_1_bit:FA_0" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 222
+Info (12128): Elaborating entity "carry_block_4bits" for hierarchy "ALU:comb_3|FA_32bits:FA_0|FA_4bits:block0|carry_block_4bits:CLA_4bits_0" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 228
+Info (12128): Elaborating entity "mux_ALU_select_16_functions" for hierarchy "ALU:comb_3|mux_ALU_select_16_functions:MUX_16_to_1_selecting_block[0].Mux_ALU_module" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 338
+Warning (12241): 43 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "out" is stuck at GND File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 8
+Info (144001): Generated suppressed messages file G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/output_files/Top_module_SV.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 37 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "in[0]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[1]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[2]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[3]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[4]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[5]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[6]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[7]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[8]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[9]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[10]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[11]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[12]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[13]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[14]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[15]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[16]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[17]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[18]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[19]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[20]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[21]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[22]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[23]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[24]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[25]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[26]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[27]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[28]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[29]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[30]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "in[31]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 6
+    Warning (15610): No output dependent on input pin "sel[0]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 7
+    Warning (15610): No output dependent on input pin "sel[1]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 7
+    Warning (15610): No output dependent on input pin "sel[2]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 7
+    Warning (15610): No output dependent on input pin "sel[3]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 7
+    Warning (15610): No output dependent on input pin "sel[4]" File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Top_module_SV.sv Line: 7
+Info (21057): Implemented 38 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 37 input pins
+    Info (21059): Implemented 1 output pins
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 47 warnings
+    Info: Peak virtual memory: 4813 megabytes
+    Info: Processing ended: Sun Oct 24 00:15:42 2021
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:37
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/output_files/Top_module_SV.map.smsg.
+
+

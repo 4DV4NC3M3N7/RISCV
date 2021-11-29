@@ -1,0 +1,7 @@
+Info (10281): Verilog HDL Declaration information at ALU.sv(9): object "b" differs only in case from object "B" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 9
+Info (10281): Verilog HDL Declaration information at ALU.sv(191): object "p" differs only in case from object "P" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 191
+Info (10281): Verilog HDL Declaration information at ALU.sv(216): object "p" differs only in case from object "P" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 216
+Info (10281): Verilog HDL Declaration information at ALU.sv(238): object "cin" differs only in case from object "Cin" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 238
+Info (10281): Verilog HDL Declaration information at ALU.sv(238): object "p" differs only in case from object "P" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 238
+Info (10281): Verilog HDL Declaration information at ALU.sv(238): object "g" differs only in case from object "G" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/ALU.sv Line: 238
+Info (10281): Verilog HDL Declaration information at Register_file.sv(9): object "q" differs only in case from object "Q" in the same scope File: G:/VLSI_ASIC_IC_designs/RISC-V_with_quartus/systemverilog_learning/Register_file.sv Line: 9

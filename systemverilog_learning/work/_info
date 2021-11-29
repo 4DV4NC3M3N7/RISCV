@@ -1,0 +1,405 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/Quartus_18.1_lite
+vALU
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1632047138
+!i10b 1
+!s100 Pzogm]Y_NAjiTUP?A;2nb2
+I0c^No[]H^[0UlMHUkGQJg1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 ALU_sv_unit
+S1
+Z4 dG:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning
+Z5 w1631890191
+Z6 8G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/ALU.sv
+Z7 FG:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/ALU.sv
+L0 274
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1632047138.000000
+Z10 !s107 G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/ALU.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/ALU.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+vcarry_block_4bits
+R0
+R1
+!i10b 1
+!s100 BjjhMb4l<^IBC;:F_D_5Z1
+IHl]HdNKEgOoz;L9[8jTOX2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 187
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vCMP_cell
+R0
+R1
+!i10b 1
+!s100 _?1];El1RCo9bMG]?bE473
+Ig=K>N3`75]j9kKkTTD8`?0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 95
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@c@m@p_cell
+vCompare_module
+R0
+R1
+!i10b 1
+!s100 lB8kJ:=BY:ASZe793iV8>3
+IU=8;Rn@BG<CoeC1U[PF?F0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 113
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@compare_module
+vData_Memory
+R0
+R1
+!i10b 1
+!s100 9FWJO4Bmi3^_^T5KS_Kn_2
+I;1<5;l2^Qj9iG]Nl1;g232
+R2
+!s105 Data_Memory_sv_unit
+S1
+R4
+w1631951590
+8G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Data_Memory.sv
+FG:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Data_Memory.sv
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+!s107 G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Data_Memory.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Data_Memory.sv|
+!i113 1
+R12
+R13
+n@data_@memory
+vdecoder_5bits
+R0
+R1
+!i10b 1
+!s100 dljSN6oa=m3H@68cNc56W1
+I<=7BzNXJfcQJ<18PLNQK[3
+R2
+Z14 !s105 Register_file_sv_unit
+S1
+R4
+Z15 w1632046677
+Z16 8G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Register_file.sv
+Z17 FG:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Register_file.sv
+L0 32
+R8
+r1
+!s85 0
+31
+R9
+Z18 !s107 G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Register_file.sv|
+Z19 !s90 -reportprogress|300|-work|work|-sv|-stats=none|G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Register_file.sv|
+!i113 1
+R12
+R13
+vFA_32bits
+R0
+R1
+!i10b 1
+!s100 `8I6Mhll?jczoa`[]HP]82
+IoC?O1an3m1LCFe7QzjLK@1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 235
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@f@a_32bits
+vFA_4bits
+R0
+R1
+!i10b 1
+!s100 1fioD3:_5]CnMhUc7OT7T2
+I>7<jH`dVN<GJondXLnNG?3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 213
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@f@a_4bits
+vfull_adder_1_bit
+R0
+R1
+!i10b 1
+!s100 E@:HGneOhEN:E@SLL5f741
+Ifo9:91;9RT`CfX2b?JBWc2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vlogic_shifter
+R0
+R1
+!i10b 1
+!s100 ]kYjo`MU45d]c<:EmoiTo3
+IZ43femhoT?Vh0c<D]QjGb0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 34
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vmux_2
+R0
+R1
+!i10b 1
+!s100 YkLY]T24diziUPaWcOR0P2
+I9JFk;LOAWnjXJM@oo`TGe2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vMUX_32x32bits
+R0
+R1
+!i10b 1
+!s100 Y;ENYO]P8RW@FZ^]D:nih1
+IY[N7z3JDERNcFmnV0aQn^3
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 74
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+n@m@u@x_32x32bits
+vmux_ALU_select_16_functions
+R0
+R1
+!i10b 1
+!s100 z=NCTCaVbIWc4Db_5RL>V0
+ISBVl@F45O@`2X1EioIgZR0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 139
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+nmux_@a@l@u_select_16_functions
+vRegister_32bits_cell
+R0
+R1
+!i10b 1
+!s100 8J<E3eQYDiKYB<BAR`Tee3
+IEM0`H9ig0ha4:keRcPJ]P3
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 6
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+n@register_32bits_cell
+vRegister_file
+R0
+R1
+!i10b 1
+!s100 Ahdz]k:`iQ1X;<bn8gD3z1
+I2E_eUENia1O=QXk9H8>NV0
+R2
+R14
+S1
+R4
+R15
+R16
+R17
+L0 122
+R8
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 1
+R12
+R13
+n@register_file
+vTop_module_SV
+R0
+R1
+!i10b 1
+!s100 cL:7P:TBENM1a?<fPI][T3
+I@1ab3dPK?;Ezl:oTLLKcF0
+R2
+!s105 Top_module_SV_sv_unit
+S1
+R4
+w1631903146
+8G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Top_module_SV.sv
+FG:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Top_module_SV.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+!s107 G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Top_module_SV.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|G:/VLSI_ASIC_IC_designs/quartus_project/systemverilog_learning/Top_module_SV.sv|
+!i113 1
+R12
+R13
+n@top_module_@s@v
